@@ -15,6 +15,7 @@ In this repo i'll save may daily training from [kattis kattis](https://open.katt
 |             | echo-echo-echo | [Submission](https://open.kattis.com/submissions/11862014) | Golang |
 | 02/10/2023  | Adding-Trouble | [Submission](https://open.kattis.com/submissions/11876061) | Golang |
 | 03/10/2023  | Amerískur | [Submission](https://open.kattis.com/submissions/11886184) | Golang |
+| 04/10/2023  | swap-digit | [Submission](https://open.kattis.com/submissions/11899847) | Golang |
 
   ![Work_in_progress](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png)
 

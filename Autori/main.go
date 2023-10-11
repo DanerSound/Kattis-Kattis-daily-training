@@ -1,20 +1,26 @@
 package main
-import "fmt"
+
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	var names string
-	var shortname string
 
+	//get names
 	fmt.Scanln(&names)
-	
-	for pos, char := range names {
-		shortname = string(char[0])	
+
+	//split in strings
+	substrings := strings.Split(names, "-")
+
+	firstLetters := make([]string, len(substrings))
+
+	for i, substring := range substrings {
+		firstLetters[i] = strings.ToUpper(substring[0:1])
 	}
 
-	for 
+	shortname := strings.Join(firstLetters, "")
 
-
-	shortname = 
-
-
+	fmt.Println(shortname)
 }
